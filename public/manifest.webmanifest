@@ -1,0 +1,19 @@
+{
+  "name": "Arquivo Morto — Caso 001",
+  "short_name": "Arquivo Morto",
+  "description": "Experiência investigativa — Caso 001: A Última Luz do 804",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#090b0e",
+  "theme_color": "#090b0e",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
