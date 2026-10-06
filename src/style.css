@@ -25,3 +25,26 @@ hr{border:0;border-top:1px solid #292e34;margin:18px 0}.docmeta{padding:12px;bor
  nav{-webkit-overflow-scrolling:touch;scroll-snap-type:x proximity}
  nav button{scroll-snap-align:center}
 }
+
+/* Investigative desk redesign */
+aside{background:linear-gradient(180deg,#12100e,#0c0d0e);border-right:1px solid #3a3027}
+.brand{border-bottom:1px solid #332b24;padding-bottom:20px}.seal{width:38px;height:38px;border:1px solid #7f403c;border-radius:50%;display:grid;place-items:center;font:700 13px Georgia;color:#c26a63;box-shadow:inset 0 0 0 3px #12100e, inset 0 0 0 4px #4c2c29}
+nav button{border-radius:3px;position:relative}nav button.active{background:#211c18;color:#f2e7d5}nav button.active:before{content:"";position:absolute;left:0;top:9px;bottom:9px;width:2px;background:#a84740}
+section{background-image:linear-gradient(#ffffff05 1px,transparent 1px);background-size:100% 34px}
+header{border-bottom-color:#453a30}header small{font-family:ui-monospace,monospace}.badge{transform:rotate(1.2deg);background:#160f0f}
+.hero,.card{border-color:#37332e;background:linear-gradient(145deg,#171716,#101112);box-shadow:0 10px 26px #0005, inset 0 1px #ffffff05}
+.hero:before,.card:before{content:"";display:block;height:2px;width:34px;background:#7f3733;margin-bottom:14px}
+.caseIntro{background:#17130f;border-color:#4a392c;box-shadow:0 10px 35px #0005}
+.caseIntro small{color:#b8645d}.caseIntro b{color:#f1e7d7}
+.evid{font-family:ui-monospace,monospace}
+.soundBtn{background:#17130fe8;border-color:#5b4536}.soundBtn.playing{color:#e2c7a6;border-color:#7c6048}
+@media(max-width:720px){
+ body{background:#090a0b}
+ section{background-image:linear-gradient(#ffffff04 1px,transparent 1px);background-size:100% 30px}
+ aside{height:74px;background:#0c0c0ceF;border-top:1px solid #49392d;box-shadow:0 -12px 35px #0008}
+ nav button{min-width:78px;border-radius:4px}
+ nav button.active{background:#211c18}
+ nav button.active:before{left:12px;right:12px;top:auto;bottom:1px;height:2px;width:auto}
+ .card,.hero{background:linear-gradient(145deg,#171716,#101112);border-color:#38332d}
+ .caseIntro{border-radius:4px}
+}
